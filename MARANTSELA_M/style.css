@@ -1,0 +1,444 @@
+ /* footer styling*/
+.footer{
+  top: 40%;
+}
+
+ .footer li:hover{
+  color: #0e6f7c;
+  border: 1px solid #25cfa5;
+  transition: .5s;
+}
+
+.footer li{
+  list-style: none;
+  margin: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #fff;
+  border: ipx solid #fff;
+  border-radius: 50%;
+  transition: .5s;
+}/* end of footer styling*/
+
+  /* backgrond picture of about page*/
+.about{
+  background-image: none;
+  background: linear-gradient(rgba(5, 5, 29, 0.5),rgba(1, 1, 24, 0.5)), url("my-web-home.jpg");
+}
+
+  /* backgrond for resume page and used linear gradiend to meke it darker*/
+.resume{
+  background: linear-gradient(rgba(5, 5, 29, 0.5),rgba(1, 1, 24, 0.5)), url("my-web-home.jpg");
+  background-image: linear-gradient(rgba(5, 5, 29, 0.5),rgba(1, 1, 24, 0.5)), url("my-web-home.jpg");
+
+}
+
+  .resume h1{
+
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration-style: solid;
+    padding: 0;
+  }
+
+    
+.first{
+  background-color: rgb(87, 87, 121);/*changing color in the first filledset*/
+  
+}
+.resume h1{
+  color: #f1f1f1;
+}
+
+
+.first img{
+  -webkit-filter: contrast(100%);/* putting a filter in tge image*/
+  filter: grayscale(85%);
+  
+}
+
+.first h2{
+  color: #333;
+}
+
+.sec{
+  background-color: rgb(87, 87, 121);
+}
+
+.third{
+  background-color: rgb(87, 87, 121);
+}
+
+.forth{
+  background-color: rgb(87, 87, 121);
+}
+
+.portfolio{
+  background-image: none;
+  background-color: #42455a;
+}
+
+/*contacts start*/
+.contact{
+  background-image:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: no-repeat;
+  background: linear-gradient(rgba(0, 0, 150,0.5),rgba(0, 0, 50, 0.5)),url("web_contact.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+ input{
+   color: #f2f2f2;
+ }
+
+ textarea{
+   color: #f2f2f2;
+ }
+.contact-title{
+   margin-top: 100px;
+   color: #fff;
+   text-transform: uppercase;
+   transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+ font-size: 32px;
+ line-height: 10px;
+
+}
+ 
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+
+}
+
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  margin-bottom: 16px;
+
+}
+
+ input{
+  height: 45px;
+}
+
+ form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+
+}
+
+form .submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}
+ .alert{  /* the message tat you get after you submit */
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+  font-size: 15px;
+}
+ .g-recaptcha{
+   margin: 10px 500px;
+ }
+/*contacts end*/
+
+
+/*Home styling*/
+ body{
+    background-repeat: no-repeat;
+    size: 100%;
+    background: linear-gradient(rgba(0, 0, 90,0.5),rgba(0, 0, 90, 0.5)), url("IMG-20200214-WA0007.jpg"); /* The image used */
+    height: 100%;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-size: cover;
+}
+
+* { 
+    box-sizing: border-box; 
+}
+
+   .bg-image {
+     -webkit-filter: blur(8px);
+     height: 100%; /* Full height */
+    /* Center and scale the image nicely */ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+/* Position text in the middle of the page/image */
+ .bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+   color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+    }
+
+h2{
+    color: white;
+    font-weight: bold;
+    text-align: start;
+}
+
+ .home-p{
+    color: white;
+    font-weight:normal;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    text-align: center;
+    
+ }/* end of home style*/
+
+  /* navigation bar*/
+ .topnav {
+    background-color: #37373b;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #470d43;
+    color: white;
+  }/* rnd of stying in nav bar*/
+ 
+ 
+ /* about me page style*/
+  /* filter in image*/
+ .container img{
+   -webkit-filter: grayscale(100%);
+   filter: grayscale(100%);
+ }
+
+ .container {
+   background: rgba(141, 73, 73, 0.4);
+   /*posion of the container*/
+   height: 430px;
+   width: 900px;
+   transform: translate(-50%, 50%);
+   position: absolute;
+   left: 47%;
+   padding: 11px;
+   top: 0;
+ }
+
+ .container h1{
+   text-align: left;
+   text-transform: capitalize;
+   color: silver;
+ }
+
+ .container P{
+   text-align: inherit;
+    float: right;
+ }
+  /*text*/
+   #a-p {
+   color: white;
+   float: right;
+   top: auto;
+   
+ }
+  /* background picture */
+   body {
+      background-color: #999;
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))url("computer-notepad-1100x733.jpg");
+      font-family: Verdana, sans-serif;
+      margin: 0;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row > .column {
+      padding: 0 8px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      float: left;
+      width: 25%;
+    }
+
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: black;
+    }
+     
+    /* portifolio styling */
+    /* Modal Content */
+    .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      width: 90%;
+      max-width: 1200px;
+    }
+    
+    /* The Close Button */
+    .close {
+      color: white;
+      position: absolute;
+      top: 10px;
+      right: 25px;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #999;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .mySlides {
+      display: none;
+    }
+    
+    .cursor {
+      cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    img {
+      margin-bottom: -4px;
+    }
+    
+    .caption-container {
+      text-align: center;
+      background-color: black;
+      padding: 2px 16px;
+      color: white;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    img.hover-shadow {
+      transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  /* end of style*/
+    p{
+      color: white;
+    }
+    
+    .button{
+      float:right;
+      margin-right: 20px;
+      right: auto;
+    }
